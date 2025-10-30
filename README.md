@@ -1,12 +1,31 @@
-### MAD Shop — кроссплатформенное приложение интернет‑магазина (Flutter)
+## madShop
+Кроссплатформенное приложение интернет‑магазина (Flutter)
 
-Простое и понятное демо‑приложение по макету из Figma: главная с товарами, детали, избранное, корзина и вход. Без сложных библиотек: стандартный Navigator и setState.
+Простое и понятное демо‑приложение по макету из Figma: главная с товарами, детали, избранное, корзина и вход.
 
 ---
 
+### Вход в приложение  
+
+<img width="458" height="672" alt="image" src="https://github.com/user-attachments/assets/547b6d80-e44a-4fb2-af70-808bed173bd8" />
+  
+### Страница входа  
+
+<img width="466" height="678" alt="image" src="https://github.com/user-attachments/assets/5acc8c9c-eab8-48d6-af1e-71820f844cf4" />
+  
+### Главный экран  
+
+<img width="485" height="796" alt="image" src="https://github.com/user-attachments/assets/8a8f2906-c70f-4ce3-bc67-230fbd5eea9f" />
+  
+### Избранное  
+
+<img width="481" height="795" alt="image" src="https://github.com/user-attachments/assets/7dbe5fe9-6171-4cae-bbbc-82f1838a1643" />
 
 
+### Корзина
 
+<img width="479" height="799" alt="image" src="https://github.com/user-attachments/assets/bfe6ccb5-ff2c-405d-958e-adfd8ea551d8" />
+  
 ---
 
 ### Возможности
@@ -14,9 +33,8 @@
 - Детали: изображение, описание, цена, «Добавить в корзину».
 - Избранное: добавление/удаление, переход к деталям.
 - Корзина: изменение количества, удаление, итоговая сумма.
-- Вход: логин; если email новый — создаётся пользователь и выполняется вход.
+- Вход: логин по email/password
 - Нижнее меню: Home / Favorites / Cart.
-- Темы и типографика из `lib/theme`, адаптив через `MediaQuery`.
 
 ---
 
@@ -61,19 +79,8 @@ assets/
 ---
 
 ### Соответствие ТЗ (чек‑лист)
-- Страницы: Home, Product, Cart, Favorites, Login/Start — да
-- Функции: сетка, детали, корзина, сумма, навигация — да
-- Кастомные цвета/шрифты из `theme/` — да
-- Адаптивность и отступы — да
-- Локальные ассеты и иконки — да
-
----
-
----
-
-### Полезные команды
-```bash
-flutter clean && flutter pub get
-flutter pub outdated
-flutter analyze
-```
+- Страницы: Home, Product, Cart, Favorites, Login/Start
+- Функции: сетка, детали, корзина, сумма, навигация
+- Кастомные цвета/шрифты из `theme/`
+- Адаптивность и отступы
+- Локальные ассеты и иконки
